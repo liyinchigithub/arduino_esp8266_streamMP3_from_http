@@ -19,8 +19,8 @@ void loop() {}
 
 // Enter your WiFi setup here:
 #ifndef STASSID
-#define STASSID "homekingAP"
-#define STAPSK  ""
+#define STASSID "" // wifi账号
+#define STAPSK  ""// wifi密码
 #endif
 
 const char* ssid = STASSID;
